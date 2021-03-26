@@ -1,4 +1,26 @@
-<h1>home</h1>
+<style>
+    .h1{
+        text-color: red;
+        backgroud-color: light-gray;
+    }
+</style>
 
-<%=link_to 'Go to about page', about_path %> |
-<%=link_to 'Go to articles page', articles_path %>
+<div class="container">
+    <section class="py-5 text-center" id="home-container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">Album example</h1>
+                <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+                <p>
+                    <a href="#" class="btn btn-success my-2">Sign up!</a>
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer id="sticky-footer" class="py-4 bg-dark text-white">
+  <div class="container text-center">
+    <small>Copyright &copy; Your Website</small>
+  </div>
+</footer>
