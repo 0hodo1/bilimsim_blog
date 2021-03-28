@@ -1,3 +1,8 @@
 <div class="container text-center">
     <h1>Alpha Blogers</h1>
+    <% @users.each do |user| %>
+        <%= user.username %>
+        <%= user.email %>
+        <%= user.password_digest %>
+    <% end %>
 </div>
