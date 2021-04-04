@@ -12,14 +12,14 @@
     .flickr_pagination .current {
       font-style: normal;
       font-weight: bold;
-      color: #b3251380; }
+      color: #7790A8; }
     .flickr_pagination a {
-      border: 1px solid #009aa5;
-      color: #009aa5;
+      border: 1px solid #AED1F5;
+      color: #AED1F5;
       text-decoration: none; }
       .flickr_pagination a:hover, .flickr_pagination a:focus {
-        border-color: #6d00a0;
-        background: #620080;
+        border-color: #4577A8;
+        background: #4577A8;
         color: white; }
     .flickr_pagination .page_info {
       color: #aaaaaa;
@@ -30,3 +30,23 @@
       margin-right: 1em; }
     .flickr_pagination .next_page {
       margin-left: 1em; }
+
+.bg_form {
+  background: #414E5C;
+}
+
+.title_bil {
+  font-style: bold;
+  font-weight: bold;
+  color: #4577A8;
+}
+
+.btn_main{
+  color: #4577A8;
+}
+
+.badge_bil{
+  text-decoration: none;
+  background: #414E5C;
+  margin-left: 5px
+}
